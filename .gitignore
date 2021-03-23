@@ -10,12 +10,11 @@ venv/
 # Local History for Visual Studio Code
 .history/
 
-
+__pycache__/
+*.py[cod]
 .DS_Store
 .env
 .flaskenv
-*.pyc
-*.pyo
 env/
 env*
 dist/
