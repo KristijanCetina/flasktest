@@ -1,0 +1,25 @@
+[{
+    "id": 1,
+    "ime": "senzor 1",
+    "data": "yyz",
+    "active": true
+},
+{
+    "id": 2,
+    "ime": "senzor 2",
+    "data": "xyz",
+    "active": false
+},
+{
+    "id": 3,
+    "ime": "senzor 3",
+    "data": "xyc",
+    "active": true
+},
+{
+    "id": 4,
+    "ime": "senzor 4",
+    "data": "ccc",
+    "active": false
+}
+]

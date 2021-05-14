@@ -1,0 +1,35 @@
+[{
+    "id": 1,
+    "ime": "xp 1",
+    "startDate": "march 3rd 2021",
+    "endDate": "march 7rd 2021",
+    "senzors": [{
+            "id": 1,
+            "ime": "senzor 1",
+            "data": "yyz",
+            "active": true
+        },
+        {
+            "id": 3,
+            "ime": "senzor 3",
+            "data": "xyc",
+            "active": false
+        }
+    ],
+    "result": "xyz",
+    "finished": true
+},
+{
+    "id": 1,
+    "ime": "xp 2",
+    "startDate": "April 1st 2021",
+    "endDate": "May 25th 2021",
+    "senzors": [{
+        "id": 2,
+        "ime": "senzor 2",
+        "data": "xyz",
+        "active": true
+    }],
+    "result": "NA",
+    "finished": false
+}]
