@@ -15,9 +15,16 @@ def hello():
     return jsonify(response)
 
 
-@app.route("/sensors", methods=['GET'])
+@app.route("/sensors", methods=['GET', 'POST'])
 def returnSensorsData():
-    return send_from_directory("./", "sensors.json")
+    if request.method == 'GET':
+        return send_from_directory("./", "sensors.json")
+    elif request.method == 'POST':
+        print("Evo podataka iz POST metode")
+        print(request.get_json(force=True, silent=False))
+        return jsonify("End of transmission!")
+    else:
+        return jsonify("Something else I don't understand")
 
 
 @app.route("/experiments", methods=['GET'])
